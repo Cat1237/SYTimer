@@ -6,7 +6,7 @@ SYTimer
 [![CocoaPods](http://img.shields.io/cocoapods/v/SYTimer.svg?style=flat)](http://cocoapods.org/pods/SYTimer)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/p/SYTimer.svg?style=flat)](http://cocoadocs.org/docsets/SYTimer)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS10+-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
-[![Build Status](https://travis-ci.org/wangson1237/SYTimer.svg?branch=master)](https://travis-ci.org/wangson1237/SYTimer)
+[![Build Status](https://github.com/wangson1237/SYTimer/workflows/build/badge.svg?branch=master)](https://github.com/wangson1237/SYTimer/actions?query=workflow%3Abuild)
 
 SYTimer is a High performance library for timing. It provides you a chance to use it main runLoop or other runLoop in your next app.
 
