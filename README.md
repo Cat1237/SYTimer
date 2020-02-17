@@ -70,7 +70,7 @@ Installation
 
 Requirements
 ==============
-This library requires `iOS 10.0+` and `Xcode 10.0+`.
+This library requires `iOS 10.0+` and `Xcode 11.0+`.
 
 License
 ==============

@@ -1,0 +1,14 @@
+language: objective-c++
+osx_image: xcode11
+xcode_project: Framework/SYTimer.xcodeproj
+xcode_scheme: SYTimer
+
+before_install:
+- env
+- xcodebuild -version
+- xcodebuild -showsdks
+- xcpretty --version
+
+script:
+- set -o pipefail
+- xcodebuild clean build -project "$TRAVIS_XCODE_PROJECT"  -scheme "$TRAVIS_XCODE_SCHEME" | xcpretty
