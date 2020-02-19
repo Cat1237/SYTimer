@@ -12,6 +12,14 @@ SYTimer is a High performance library for timing. It provides you a chance to us
 
 Base on CFRunLoop Timer for iOS.
 
+## Features
+
+- [x] All runLoop and runLoopMode Support.
+- [x] It's only created two runLoop timer when in main runLoop.
+- [x] It's based on priority queue wehn in main runLoop 
+- [x] ThreadSpecificVariable.
+- [x] Heap and HeapItem.
+
 
 ### SYTimer
 
@@ -49,15 +57,6 @@ A `SYThreadSpecificVariable` is a variable that can be read and set like a norma
 ### SYHeapItem
 
 An object which it's packaged as SYHeapItem and store it in a heap which it's SYHeap.
-
-## Features
-
-- [x] ALl runLoop and runLoopMode Support.
-- [x] It's only created two runLoop timer when in main runLoop.
-- [x] It's based on priority queue wehn in main runLoop 
-.
-- [x] ThreadSpecificVariable.
-- [x] Heap and HeapItem.
 
 Installation
 ==============
